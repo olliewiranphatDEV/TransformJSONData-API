@@ -4,7 +4,7 @@ interface SummaryProps {
     data: ReturnType<typeof import("../utils/transformData").transformData>
 }
 
-const SummaryTable: React.FC<SummaryProps> = ({ data }) => {
+const TableSummary: React.FC<SummaryProps> = ({ data }) => {
     return (
         <div className='p-4'>
             {
@@ -36,4 +36,4 @@ const SummaryTable: React.FC<SummaryProps> = ({ data }) => {
     )
 }
 
-export default SummaryTable
+export default TableSummary
